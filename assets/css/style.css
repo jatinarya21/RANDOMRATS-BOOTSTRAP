@@ -18,6 +18,15 @@
     text-decoration-color: #F61529 !important;
     text-decoration: line-through;
 }
+.connect-btn {
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.connect-btn:hover {
+    box-shadow: 8px 8px #F61529;
+    transition: .3s;
+}
 
 .font-ibm {
     font-family: 'IBM Plex Mono', monospace;
