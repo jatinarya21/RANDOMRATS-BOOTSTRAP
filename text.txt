@@ -1,0 +1,10 @@
+background: #F61529;
+    color: white;
+    font-size: 10px;
+    padding: 13px 12px 12px 12px;
+    border-radius: 69px;
+    border: none;
+
+
+    left: 24%;
+    width: 15%;

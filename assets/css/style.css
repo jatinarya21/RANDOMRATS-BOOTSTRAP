@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-container {
+    max-width: 1620px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-line-red {
+    text-decoration-color: #F61529 !important;
+    text-decoration: line-through;
+}
+
+.font-ibm {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.font-press {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.text-red {
+    color: #F61529;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-85 {
+    font-size: 85px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-37 {
+    font-size: 37px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-35 {
+    margin-right: 35px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-33 {
+    margin-right: 33px;
+}
+
+.mb-21 {
+    margin-bottom: 21px;
+}
+
+.corner {
+    position: absolute;
+    top: -1%;
+   left: 24%;
+   width: 15%;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.connect-btn {
+    background: #F61529;
+    color: white;
+    font-size: 8px;
+    padding: 13px 12px 13px 12px;
+    border-radius: 69px;
+    border: none;
+}
+
+.heading-line-through {
+    line-height: 146.5%;
+}
+
+.heading-hero {
+    line-height: 189.5%;
+}
+
+.icon {
+    transition: all 500ms ease;
+}
+.z--1{
+    z-index: -1;
+}
+.icon:hover {
+    transform: scale(1.2);
+}
+.w-50px{
+    width: 50px;
+}
+.max-w-100 {
+    max-width: 100%;
+}
+.w-60{
+    width: 60%;
+}
+.w-10{
+    width: 10%;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-9{
+    font-size: 9px;
+}
+.w-xs-50{
+    width: 50%;
+}
+.rat-left{
+    left: -2%;
+    width: 40%;
+}
+@media (min-width:576px) {
+    
+}
+@media (min-width:768px) {
+    .md-width {
+        width: 50%;
+    }
+    .mr-md-40{
+        margin-right: 40px;
+    }
+    .mr-md-20{
+        margin-right: 20px;
+    }
+    .mr-md-35{
+        margin-right: 35px;
+    }
+
+    .fs-md-20 {
+        font-size: 20px;
+    }
+    .md-fs-56{
+        font-size: 56px;
+    }
+    .fs-lg-14 {
+        font-size: 14px;
+    }
+    .fs-md-24{
+        font-size: 24px;
+    }
+    .fs-md-13{
+        font-size: 13px;
+    }
+    .md-cheese-width{
+        width: 7%;
+    }
+    .w-md-160{
+        width: 160px;
+    }
+    .fs-md-37{
+        font-size: 37px;
+    }
+    .connect-btn {
+        font-size: 10px;
+        padding: 19px 21px 19px 22px;
+    }
+    .corner{
+        top: -1%;
+        left: -1%;
+    }
+    .w-md-100{
+        width: 100% ;
+    }
+    .rat-left {
+        left: -1%;
+        width: 22%;
+    }
+
+}
+
+@media (min-width:992px) {
+    .w-lg-100{
+        width: 100%;
+    }
+    .md-cheese-width{
+        width:11%;
+    }
+    .fs-lg-85{
+        font-size: 85px;
+    }
+    .fs-lg-28{
+        font-size: 28px;
+    }
+    .pt-lg-30{
+        padding-top: 30px;
+    }
+    .connect-btn{
+        font-size: 15px;
+    }
+
+}
